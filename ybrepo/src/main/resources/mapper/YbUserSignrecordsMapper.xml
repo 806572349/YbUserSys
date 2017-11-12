@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.user.entity.YbUserSignrecordsMapper">
+  <resultMap id="BaseResultMap" type="com.yb.user.model.YbUserSignrecords">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="orders" jdbcType="INTEGER" property="orders" />
+    <result column="orderday" jdbcType="INTEGER" property="orderday" />
+    <result column="sum" jdbcType="INTEGER" property="sum" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="reward" jdbcType="INTEGER" property="reward" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>

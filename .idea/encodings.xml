@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/usersys" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybinterface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybrepo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybuser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybuserapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybuserdao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybuserservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ybweb" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.user.entity.YbUserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yb.user.model.YbUserInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="order_save" jdbcType="DECIMAL" property="orderSave" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="realname" jdbcType="VARCHAR" property="realname" />
+    <result column="update_times" jdbcType="INTEGER" property="updateTimes" />
+    <result column="personal_desc" jdbcType="VARCHAR" property="personalDesc" />
+    <result column="personal_sign" jdbcType="VARCHAR" property="personalSign" />
+    <result column="id_card" jdbcType="VARCHAR" property="idCard" />
+    <result column="id_card_img" jdbcType="VARCHAR" property="idCardImg" />
+    <result column="id_card_back_img" jdbcType="VARCHAR" property="idCardBackImg" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="point" jdbcType="INTEGER" property="point" />
+    <result column="account_sum" jdbcType="DECIMAL" property="accountSum" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="orders" jdbcType="INTEGER" property="orders" />
+    <result column="orders_sum" jdbcType="DECIMAL" property="ordersSum" />
+  </resultMap>
+</mapper>

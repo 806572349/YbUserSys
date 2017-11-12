@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.user.entity.YbUserAddressMapper">
+  <resultMap id="BaseResultMap" type="com.yb.user.model.YbUserAddress">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="province" jdbcType="BIGINT" property="province" />
+    <result column="city" jdbcType="BIGINT" property="city" />
+    <result column="district" jdbcType="BIGINT" property="district" />
+    <result column="street" jdbcType="VARCHAR" property="street" />
+    <result column="customer_name" jdbcType="VARCHAR" property="customerName" />
+    <result column="valid" jdbcType="INTEGER" property="valid" />
+    <result column="isdefault" jdbcType="INTEGER" property="isdefault" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="postcode" jdbcType="VARCHAR" property="postcode" />
+  </resultMap>
+</mapper>

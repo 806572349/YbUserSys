@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.user.entity.YbUserMapper">
+  <resultMap id="BaseResultMap" type="com.yb.user.model.YbUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+    <result column="device_code" jdbcType="VARCHAR" property="deviceCode" />
+    <result column="headimgurl" jdbcType="VARCHAR" property="headimgurl" />
+    <result column="user_level" jdbcType="INTEGER" property="userLevel" />
+    <result column="user_code" jdbcType="VARCHAR" property="userCode" />
+    <result column="user_reg_way" jdbcType="VARCHAR" property="userRegWay" />
+    <result column="extra_int" jdbcType="INTEGER" property="extraInt" />
+    <result column="extra_double" jdbcType="DOUBLE" property="extraDouble" />
+    <result column="extra_string" jdbcType="VARCHAR" property="extraString" />
+  </resultMap>
+</mapper>

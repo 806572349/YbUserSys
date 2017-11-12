@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.user.entity.YbUserOauthWeixinMapper">
+  <resultMap id="BaseResultMap" type="com.yb.user.model.YbUserOauthWeixin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="refresh_token" jdbcType="VARCHAR" property="refreshToken" />
+    <result column="access_token" jdbcType="VARCHAR" property="accessToken" />
+    <result column="expires_in" jdbcType="INTEGER" property="expiresIn" />
+    <result column="headimgurl" jdbcType="VARCHAR" property="headimgurl" />
+    <result column="privilege" jdbcType="VARCHAR" property="privilege" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+  </resultMap>
+</mapper>

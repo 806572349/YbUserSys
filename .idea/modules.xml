@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/usersys/usersys.iml" filepath="$PROJECT_DIR$/usersys/usersys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybbase/ybbase.iml" filepath="$PROJECT_DIR$/ybbase/ybbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybinterface/ybinterface.iml" filepath="$PROJECT_DIR$/ybinterface/ybinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybrepo/ybrepo.iml" filepath="$PROJECT_DIR$/ybrepo/ybrepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybuser/ybuser.iml" filepath="$PROJECT_DIR$/ybuser/ybuser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybuserapi/ybuserapi.iml" filepath="$PROJECT_DIR$/ybuserapi/ybuserapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybuserdao/ybuserdao.iml" filepath="$PROJECT_DIR$/ybuserdao/ybuserdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybuserservice/ybuserservice.iml" filepath="$PROJECT_DIR$/ybuserservice/ybuserservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ybweb/ybweb.iml" filepath="$PROJECT_DIR$/ybweb/ybweb.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ybbase" />
+        <module name="ybinterface" />
+        <module name="ybrepo" />
+        <module name="ybuserapi" />
+        <module name="ybuserdao" />
+        <module name="ybuserservice" />
+        <module name="ybweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="usersys" target="1.8" />
+      <module name="ybbase" target="1.8" />
+      <module name="ybinterface" target="1.8" />
+      <module name="ybrepo" target="1.8" />
+      <module name="ybuser" target="1.8" />
+      <module name="ybuserapi" target="1.8" />
+      <module name="ybuserdao" target="1.8" />
+      <module name="ybuserservice" target="1.8" />
+      <module name="ybweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

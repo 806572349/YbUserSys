@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.user.entity.YbUserLoginLogMapper">
+  <resultMap id="BaseResultMap" type="com.yb.user.model.YbUserLoginLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="mac" jdbcType="VARCHAR" property="mac" />
+    <result column="valid" jdbcType="INTEGER" property="valid" />
+    <result column="broswer" jdbcType="VARCHAR" property="broswer" />
+    <result column="login_ip" jdbcType="VARCHAR" property="loginIp" />
+    <result column="login_mode" jdbcType="INTEGER" property="loginMode" />
+    <result column="login_Time" jdbcType="TIMESTAMP" property="loginTime" />
+  </resultMap>
+</mapper>
